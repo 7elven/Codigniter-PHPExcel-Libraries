@@ -15,11 +15,12 @@ $this->load->library('xlsx');
 ```php
 list($header,$values) = $this->xlsx->convert('$filename', $first_row_of_header, $date_column);
 ```
-***$filename*** is .xlsx file ex. user.xlsx
+* **$filename** is .xlsx file ex. user.xlsx
 
-***$first_row_of_header*** is first row of header default is 1
+* **$first_row_of_header** is first row of header default is 1
 
-***$date_column is optional*** it's array of column have date data ex. array('E') or array('E','S')
+* **$date_column** ***is optional*** it's array of column have date data ex. array('E') or array('E','S')
+
 
 3. get value
 ```php
