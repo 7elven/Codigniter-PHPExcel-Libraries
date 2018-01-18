@@ -5,7 +5,7 @@ Easy to use return data to array
 
 1. load libraries in autoload
 ```php
-   $autoload['libraries'] = array('database', 'session', 'xlsx');
+$autoload['libraries'] = array('database', 'session', 'xlsx');
 ```
 or in your function 
 ```php
